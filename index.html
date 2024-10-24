@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+                <div class="container  text-start p-3 mb-4" id="container3">
+                <a><img class="mb-2" id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgOXxkrAYiW5-EdWiIuctDVOPDdAHPtsno6g&s" ><p class="heading">WeatherToday</p></a>
+                 </div>
+                <br>
+                <div class="container text-center p-3" id="container2"> 
+                    <div class="content">
+                <div class="form-group">
+                    <label for="city">Enter a city:</label>
+                    <input type="text" id="city" class="form-control mb-2" placeholder="City name">
+                </div>
+                <br>
+                <div id="weather-info" class="mt-4"></div>
+                <div id="error-message" class="mt-2"></div>
+                </div>
+                <button class="btn btn-primary my-5" id="button" onclick="getWeather()">Get Weather</button>
+                </div>
+        
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
