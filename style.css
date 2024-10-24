@@ -1,0 +1,52 @@
+body{
+    background-image: url('bg1.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+#logo{
+background-position: start; 
+background-repeat: no-repeat;
+width: 50%; 
+height: 50px; 
+border-radius: 10px;
+}
+
+#weather-info { margin-top: 20px; color:black;border-radius: 5px;font-family: Poppins; }
+#error-message { color: red; }
+#container2 { 
+    width:80%;
+    max-width:400px;
+    aspect-ratio:1/1;
+    background-color:lightgray;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (min-width: 1200px) {
+    #container2 {
+        width: 30%; 
+        max-width: 600px;
+    }
+}
+.content{
+    flex-grow:1;
+}
+#button{
+    align-self: center;
+}
+#container3{
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+.heading{
+    color:black;
+    font-family:bold;
+}
